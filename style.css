@@ -1,0 +1,117 @@
+/* SARA QUÍLEZ */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font: 0.8em 'Poppins', bold;
+    background-color: #242933; 
+}
+
+.formulario{ 
+    display: block;
+    width: 350px; 
+    height: 530px;
+    margin: 20px auto;
+    border-radius: 4px;  
+    padding-left: 35px;
+    background-color: #323848;
+    color: #78839F;
+    border: 1px solid #4b546d;
+}
+
+.label{
+    cursor: pointer;
+}
+
+h1{
+    color: #8995B5;
+    margin-top: 35px;
+}
+
+.grupo_input{
+    position: relative;
+}
+
+.estado_campo{
+    margin: 10px 0px;
+    
+}
+
+.input{
+    width: 300px; 
+    height: 40px; 
+    background-color: #fff; 
+    border-radius: 4px;    
+    padding-left: 10px; 
+    border-width: 0px;
+}
+
+.boton{
+    width: 312px;
+    height: 40px;
+    background-color:  #6d65f7;
+    color: white;
+    border: 2px solid #0f1015;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: smaller;
+}
+
+.rellene_campo  {
+    color:  #d07c81;
+    font-size: 12px;
+    opacity: 0; 
+    position: fixed;
+    margin: 0px;
+}
+
+.rellene_campo-activo  {
+    opacity: 1;
+}
+
+.formato_error  {
+    color:  #d07c81;
+    font-size: 12px;
+    opacity: 0; 
+    margin: 0px;
+}
+
+.formato_error-activo  {
+    opacity: 1;
+}
+
+.imagen_correcto{
+    position: absolute;
+    right: 50px;
+    bottom: 12px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.imagen_error{
+    position: absolute;
+    right: 50px;
+    bottom: 12px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.estado_campo-correcto{
+    opacity: 1;
+}
+
+.estado_campo-incorrecto{
+    opacity: 1; 
+    border: 2px solid #d07c81 ;   
+}
+
+.imagen_error{
+    border: 0px;
+}
+

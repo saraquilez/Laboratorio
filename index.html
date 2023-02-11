@@ -1,0 +1,76 @@
+<!-- SARA QUÍLEZ --> 
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Create Account </title>
+        <meta charset = "UTF-8"/>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>               
+            <form action="" class="formulario" id="formulario">
+                <h1>Create Account</h1>
+
+                <!-- NOMBRE -->
+                <div class="estado_campo" id="campo_nombre">
+                    <label class="label" for="nombre">Nombre</label><br/> 
+                    <div class="grupo_input">
+                        <input type="text" class="input" name="nombre" id="nombre" value=""/>
+                        <img class="imagen_error" src="images/error-icon.svg" alt="Icono nombre incorrecto" id="nombre_incorrecto">
+                        <img class="imagen_correcto" src="images/success-icon.svg" alt="Icono nombre correcto" id="nombre_correcto">
+                    </div>
+                    <p class="rellene_campo" id="rellene_nombre">Rellene este campo</p>
+                    <p class="formato_error" id="formato_nombre">Formato inválido</p>
+                </div>
+                
+                
+                <!-- EMAIL -->
+                <div class="estado_campo" id="campo_email">
+                    <label class="label" for="email">Email</label><br/> 
+                    <div class="grupo_input">
+                        <input type="email" class="input" name="email" id="email" value=""/>
+                        <img class="imagen_error" src="images/error-icon.svg" alt="Icono email incorrecto" id="email_incorrecto">
+                        <img class="imagen_correcto" src="images/success-icon.svg" alt="Icono email correcto" id="email_correcto">
+                    </div>
+                    <p class="rellene_campo" id="rellene_email">Rellene este campo</p>
+                    <p class="formato_error" id="formato_email">Email inválido</p>
+                </div>
+                
+                
+                <!-- CLAVE -->
+                <div class="estado_campo" id="campo_clave">
+                    <label class="label" for="clave">Clave</label><br/> 
+                    <div class="grupo_input">
+                        <input type="password" class="input" name="clave" id="clave" value=""/>
+                        <img class="imagen_error" src="images/error-icon.svg" alt="Icono clave incorrecto" id="clave_incorrecto">
+                        <img class="imagen_correcto" src="images/success-icon.svg" alt="Icono clave correcto" id="clave_correcto">
+                    </div>
+                    <p class="rellene_campo" id="rellene_clave">Rellene este campo</p>
+                    <p class="formato_error" id="formato_clave">No debe tener más de 8 caracteres</p>
+                </div>
+                
+                
+                <!-- CONFIRMACIÓN -->
+                <div class="estado_campo" id="campo_confirmacion">
+                    <label class="label" for="confirmacion">Confirmacion</label><br/> 
+                    <div class="grupo_input">
+                        <input type="password" class="input" name="confirmacion" id="confirmacion" value=""/>
+                        <img class="imagen_error" src="images/error-icon.svg" alt="Icono confirmacion incorrecto" id="confirmacion_incorrecto">
+                        <img class="imagen_correcto" src="images/success-icon.svg" alt="Icono confirmacion correcto" id="confirmacion_correcto">
+                    </div>
+                    <p class="rellene_campo" id="rellene_confirmacion">Rellene este campo</p>
+                    <p class="formato_error" id="formato_confirmacion">Las contraseñas no coinciden</p>
+                </div>
+                
+                <!-- ENVIAR -->
+                <div>
+                    <button class="estado_campo boton" type="submit" name="enviar" value="ENVIAR">ENVIAR</button>
+                </div>
+            </form>
+        
+            <script src="index.js"></script>
+    </body>
+</html>
+
